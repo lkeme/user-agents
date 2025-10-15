@@ -1,0 +1,40 @@
+name: Update latest user agents
+
+on:
+  schedule:
+    - cron: '33 3 * * 3'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Update latest user agents
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python --version
+      - run: pip install -r requirements.txt
+      - run: python update.py
+
+      - name: Commit files
+        run: |
+          git config --local user.email "19500576+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m ":pencil: Update latest user agents" || echo "No changes to commit"
+
+      - name: Push Changes
+        run: |
+          git push origin master
+
+      - name: Reset Master Branch
+        run: |
+          git checkout --orphan temp_branch
+          git add -A
+          git commit -m ":pencil: Update latest user agents" || echo "No changes to commit"
+          git push --force origin temp_branch:master
