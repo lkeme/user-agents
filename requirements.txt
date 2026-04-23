@@ -1,3 +1,2 @@
-PyGithub
-GitPython
 loguru
+requests

@@ -5,14 +5,15 @@ on:
     - cron: '33 3 * * 3'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Update latest user agents
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -30,11 +31,4 @@ jobs:
 
       - name: Push Changes
         run: |
-          git push origin master
-
-      - name: Reset Master Branch
-        run: |
-          git checkout --orphan temp_branch
-          git add -A
-          git commit -m ":pencil: Update latest user agents" || echo "No changes to commit"
-          git push --force origin temp_branch:master
+          git push origin HEAD:${{ github.ref_name }}
