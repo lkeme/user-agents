@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T06:11:11.083608+00:00",
+  "generated_at": "2026-05-06T06:16:42.492920+00:00",
   "sources": {
     "chrome": {
       "mac": {
@@ -19,8 +19,8 @@
       "linux": {
         "source": "https://versionhistory.googleapis.com",
         "majors": [
-          146,
-          147
+          147,
+          148
         ]
       }
     },
@@ -37,9 +37,9 @@
     },
     "edge": {
       "source": "https://edgeupdates.microsoft.com/api/products",
-      "version": "147.0.3912.86",
+      "version": "147.0.3912.98",
       "major": 147,
-      "published_time": "2026-04-26T13:18:00",
+      "published_time": "2026-05-02T08:44:00",
       "architecture": "x64"
     }
   }
