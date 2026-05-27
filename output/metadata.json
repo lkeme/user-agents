@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-20T06:59:57.103351+00:00",
+  "generated_at": "2026-05-27T07:47:04.976302+00:00",
   "sources": {
     "chrome": {
       "mac": {
         "source": "https://versionhistory.googleapis.com",
         "majors": [
-          147,
-          148
+          148,
+          149
         ]
       },
       "win": {
         "source": "https://versionhistory.googleapis.com",
         "majors": [
-          147,
-          148
+          148,
+          149
         ]
       },
       "linux": {
@@ -26,7 +26,7 @@
     },
     "firefox": {
       "source": "https://product-details.mozilla.org/1.0/firefox_versions.json",
-      "release_version": "151.0",
+      "release_version": "151.0.2",
       "release_major": 151,
       "esr_version": "140.11.0esr",
       "esr_major": 140
@@ -37,9 +37,9 @@
     },
     "edge": {
       "source": "https://edgeupdates.microsoft.com/api/products",
-      "version": "148.0.3967.70",
+      "version": "148.0.3967.83",
       "major": 148,
-      "published_time": "2026-05-17T07:10:00",
+      "published_time": "2026-05-23T10:49:00",
       "architecture": "x64"
     }
   }
