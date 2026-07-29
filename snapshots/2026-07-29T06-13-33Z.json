@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-29T06:13:33.007262+00:00",
+  "sources": {
+    "chrome": {
+      "mac": {
+        "source": "https://versionhistory.googleapis.com",
+        "majors": [
+          150,
+          151
+        ]
+      },
+      "win": {
+        "source": "https://versionhistory.googleapis.com",
+        "majors": [
+          150,
+          151
+        ]
+      },
+      "linux": {
+        "source": "https://versionhistory.googleapis.com",
+        "majors": [
+          149,
+          150
+        ]
+      }
+    },
+    "firefox": {
+      "source": "https://product-details.mozilla.org/1.0/firefox_versions.json",
+      "release_version": "153.0.1",
+      "release_major": 153,
+      "esr_version": "140.13.0esr",
+      "esr_major": 140
+    },
+    "safari": {
+      "source": "https://developer.apple.com/tutorials/data/index/safari-release-notes",
+      "version": "26.6"
+    },
+    "edge": {
+      "source": "https://edgeupdates.microsoft.com/api/products",
+      "version": "150.0.4078.105",
+      "major": 150,
+      "published_time": "2026-07-27T18:15:00",
+      "architecture": "x64"
+    }
+  },
+  "user_agents": [
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:140.0) Gecko/20100101 Firefox/140.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:153.0) Gecko/20100101 Firefox/153.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0",
+    "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+    "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0",
+    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
+  ]
+}

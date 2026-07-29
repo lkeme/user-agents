@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T06:09:54.379475+00:00",
+  "generated_at": "2026-07-29T06:13:33.007262+00:00",
   "sources": {
     "chrome": {
       "mac": {
@@ -26,20 +26,20 @@
     },
     "firefox": {
       "source": "https://product-details.mozilla.org/1.0/firefox_versions.json",
-      "release_version": "153.0",
+      "release_version": "153.0.1",
       "release_major": 153,
       "esr_version": "140.13.0esr",
       "esr_major": 140
     },
     "safari": {
       "source": "https://developer.apple.com/tutorials/data/index/safari-release-notes",
-      "version": "26.5"
+      "version": "26.6"
     },
     "edge": {
       "source": "https://edgeupdates.microsoft.com/api/products",
-      "version": "150.0.4078.83",
+      "version": "150.0.4078.105",
       "major": 150,
-      "published_time": "2026-07-19T08:30:00",
+      "published_time": "2026-07-27T18:15:00",
       "architecture": "x64"
     }
   }
